@@ -9,5 +9,8 @@
 `docker run -itd [docker_image] /bin/bash` <br>
 `docker exec -it [container_id] bash #by ID ` <br>
 
+### copy files
+`docker cp container_id:/foo.txt foo.txt` <br>
+
 ## credits
 https://maelfabien.github.io/project/Streamlit/#dockerfile <br>
