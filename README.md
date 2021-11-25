@@ -11,6 +11,14 @@
 `docker exec -it [container_id] bash #by ID ` <br>
 `cd mnt/c/` <br>
 
+### bind mount
+`docker run --gpus all -itd -v $(pwd):/workspace` <br>
+
+### symlink
+`mklink /d ~\data_symlinks\linkage $(pwd)` <br>
+
+`ln -s /workspace ./hico_exp` <br>
+
 ### copy files
 `docker cp container_id:/foo.txt foo.txt` <br>
 
